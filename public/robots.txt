@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sa23515193-hash.github.io/ZeroIntern-Project3-Blog-SEO/sitemap.xml

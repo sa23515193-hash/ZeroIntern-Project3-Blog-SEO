@@ -1,0 +1,14 @@
+---
+title: Why Static Generation Is So Fast
+---
+## Build once, serve many times
+
+Static generation turns application routes into files during the build. For a blog, this is a natural fit because published articles usually change far less often than they are read.
+
+## The result
+
+The browser can receive HTML immediately from a CDN or static host. There is no database round-trip required to render a published article.
+
+## When to use a backend
+
+A backend becomes useful for authenticated publishing, comments, private drafts, server-side analytics, payments or frequently changing personalized content.
