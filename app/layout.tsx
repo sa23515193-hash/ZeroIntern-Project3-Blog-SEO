@@ -47,14 +47,14 @@ export default function RootLayout({
           <div className="container navin">
             <Link className="brand" href="/">
               insight<span>ful</span>
+              
             </Link>
-
-            <div className="links">
-              <Link href="/">Home</Link>
-              <Link href="/blog/">Blog</Link>
-              <Link href="/dashboard/">Analytics</Link>
-              <Link href="/about/">About</Link>
-            </div>
+<div className="links">
+  <Link href="/">Home</Link>
+  <Link href="/blog/">Blog</Link>
+  <Link href="/dashboard/">Analytics</Link>
+  <Link href="/about/">About</Link>
+</div>
 
             <div className="navactions">
               <ThemeToggle />
